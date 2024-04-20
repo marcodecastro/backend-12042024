@@ -23,8 +23,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const corsOptions = {
-  origin: process.env.CORS_ORIGIN || 'http://localhost:3000', 
-  //origin: process.env.CORS_ORIGIN || "https://backend-12042024.vercel.app/", 
+  //origin: process.env.CORS_ORIGIN || 'http://localhost:3000', 
+  origin: process.env.CORS_ORIGIN || "https://chancelaria.netlify.app", 
   optionsSuccessStatus: 200,
 };
 const PORT = process.env.PORT 
