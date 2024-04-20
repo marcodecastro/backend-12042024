@@ -11,7 +11,6 @@ import './cronTasks.js';
 import dotenv from 'dotenv';
 import bodyParser from 'body-parser';
 import { format } from 'date-fns';
-import winston from 'winston';
 
 
 dotenv.config();
